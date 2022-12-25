@@ -6,6 +6,7 @@ import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.udacity.project4.locationreminders.MainCoroutineRule
 import com.udacity.project4.locationreminders.data.FakeDataSource
+import com.udacity.project4.locationreminders.data.dto.ReminderDTO
 import com.udacity.project4.locationreminders.reminderslist.ReminderDataItem
 
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -36,7 +37,10 @@ class SaveReminderViewModelTest {
 
     @Before
     fun setUp() {
-        fakeReminders = FakeDataSource()
+        val reminder1 = ReminderDTO("Title1", "Description1", "Location1", 30.0, 29.0, "1")
+        val reminder2 = ReminderDTO("Title2", "Description1", "Location1", 30.0, 29.0, "2")
+        val reminder3 = ReminderDTO("Title3", "Description1", "Location1", 30.0, 29.0, "3")
+        fakeReminders = FakeDataSource(mutableListOf(reminder1,reminder2,reminder3))
         saveReminderViewModel = SaveReminderViewModel(
             ApplicationProvider.getApplicationContext(),
             fakeReminders

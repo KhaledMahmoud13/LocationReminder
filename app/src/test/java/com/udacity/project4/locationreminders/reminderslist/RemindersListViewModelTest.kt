@@ -32,7 +32,10 @@ class RemindersListViewModelTest {
 
     @Before
     fun setUp() {
-        fakeReminders = FakeDataSource()
+        val reminder1 = ReminderDTO("Title1", "Description1", "Location1", 30.0, 29.0, "1")
+        val reminder2 = ReminderDTO("Title2", "Description1", "Location1", 30.0, 29.0, "2")
+        val reminder3 = ReminderDTO("Title3", "Description1", "Location1", 30.0, 29.0, "3")
+        fakeReminders = FakeDataSource(mutableListOf(reminder1,reminder2,reminder3))
         remindersViewModel = RemindersListViewModel(
             ApplicationProvider.getApplicationContext(),
             fakeReminders
