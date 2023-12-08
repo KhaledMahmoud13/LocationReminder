@@ -4,10 +4,6 @@ A Todo list app with location reminders that remind the user to do something whe
 specific location. The app will require the user to create an account and login to set and access
 reminders.
 
-#### Screenshots:
-
-<img src="screenshots/screen-shot-2020-06-08-at-5.20.42-pm.png"> <img src="screenshots/screen-shot-2020-06-08-at-5.20.59-pm.png"> <img src="screenshots/screen-shot-2020-06-08-at-5.21.18-pm.png">
-
 ## Built With
 
 * [Koin](https://github.com/InsertKoinIO/koin) - A pragmatic lightweight dependency injection
