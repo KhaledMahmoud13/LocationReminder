@@ -2,32 +2,40 @@
   "project_info": {
     "project_number": "304520751725",
     "project_id": "location-reminders-41c3e",
-    "storage_bucket": "location-reminder-41c3e.appspot.com"
+    "storage_bucket": "location-reminders-41c3e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:841492854383:android:83f4e6c23020f5449ebf9a",
+        "mobilesdk_app_id": "1:304520751725:android:d30d9406891d2e23382d64",
         "android_client_info": {
           "package_name": "com.udacity.project4"
         }
       },
       "oauth_client": [
         {
-          "client_id": "841492854383-nuurc2vlp09huje2ed33h0apkhedqeoj.apps.googleusercontent.com",
+          "client_id": "304520751725-ogm5ncniit5h9ealdim7bk18o4v1kj0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udacity.project4",
+            "certificate_hash": "d8f5e3ada1fd80d11e71c472cf02c4cd99a0b865"
+          }
+        },
+        {
+          "client_id": "304520751725-n7c8lh307o05a6srkb23u3m5vrnujcv0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCan62QZ06i-K-eP5gOznr5qyMcOtBNUtw"
+          "current_key": "AIzaSyAcbrK_-l0kW71spDQ0npxY9sYhVHNOeN4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "841492854383-nuurc2vlp09huje2ed33h0apkhedqeoj.apps.googleusercontent.com",
+              "client_id": "304520751725-n7c8lh307o05a6srkb23u3m5vrnujcv0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
